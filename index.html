@@ -8,15 +8,56 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<<<<<<< HEAD
-    <p>Hello World,we are software developers!</p>
-    <!--
-      
-     
-=======
     <h1 id="title">Survey Form</h1>
     <p id="description">Let us know how we can improve our site</p>
->>>>>>> ac24cdaad84710ad59dec4312b5503d66bf68838
+    <form id="survey-form">
+        <label id="name-label">Name:</label><br>
+        <input type="text" name="name" id="name" placeholder="Name" required="true"><br>
+
+        <label id="email-label">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Email" required="true"><br>
+
+        <label id="number-label">Number (between 1 and 5000):</label><br>
+        <input type="number" name="number" id="number" placeholder="Number" min="1" max="5000"><br>
+
+        <select id="dropdown">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+
+        <p>
+          Question 1 : Do you like baseball?
+          <input type="radio" name="q1" value="yes">Yes
+          <input type="radio" name="q1" value="no">No
+        </p>
+
+        <p>
+          Question 2 : Do you like football?
+          <input type="radio" name="q2" value="yes">Yes
+          <input type="radio" name="q2" value="no">No
+        </p>
+
+        <input type="checkbox" name="vehicle" value="Front"> Front-end Projects<br>
+        <input type="checkbox" name="vehicle" value="Back" > Back-end Projects<br>
+        <input type="checkbox" name="vehicle" value="Data"> Data Visualization<br>
+        <input type="checkbox" name="vehicle" value="Challenges" > Challenges<br>
+        <input type="checkbox" name="vehicle" value="Open"> Open Source Community<br>
+        <input type="checkbox" name="vehicle" value="Gitter" > Gitter help rooms<br>
+        <input type="checkbox" name="vehicle" value="Videos"> Videos<br>
+        <input type="checkbox" name="vehicle" value="CaCityr" > City Meetups<br>
+        <input type="checkbox" name="vehicle" value="Wiki"> Wiki<br>
+        <input type="checkbox" name="vehicle" value="Additional" > Additional Courses<br>
+
+        <label id="email-label">Additional Comments:</label><br>
+        <textarea rows="4" cols="50"></textarea>
+
+        <button type="submit" id="submit" value="submit">submit</button>
+
+    </form>
+
+     
 
     <!--
     Hello Camper!
